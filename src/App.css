@@ -1,5 +1,24 @@
-.App {
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
+
+body {
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1508389377389-b8221c0bcc9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-position: top top;
+  background-size: cover;
+  margin: 0;
+}
+
+
+#slider {
   text-align: center;
+  background: rgb(49, 49, 177);
+  background: linear-gradient(
+    0deg,
+    rgba(49, 49, 177, 1) 0%,
+    rgba(49, 49, 177, 1) 50%,
+    rgba(49, 49, 177, 0.6) 100%
+  );
 }
 
 .App-logo {
@@ -36,3 +55,36 @@
     transform: rotate(360deg);
   }
 }
+
+#footer{
+  border-top: unset;
+}
+.wedding-head{
+  color: #fff;
+}
+
+
+.container {
+  width: 100%;
+
+}
+.col-4 {
+  width: 25%;
+  float: left;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    width: 1100px;
+  }
+  h1 {
+    font-size: 58px;
+  }
+}
+
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */
+.button5 {background-color: #555555;} /* Black */

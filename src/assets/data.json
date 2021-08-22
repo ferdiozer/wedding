@@ -1,0 +1,34 @@
+{
+    "users": [
+        {
+            "_id": "6100e8fa3c75af6b6538027d",
+            "username": "cekdar",
+            "title": "EVLENİYORUZ!",
+            "description": "Bu mutlu günümüzde siz değerli dostlarımızıda aramızda görmekten mutluluk duyarız.",
+            "coverImage": "https://pistatic.piyanos.com/uploads/wedding/cover-default.jpg",
+            "startDate": 1630227365000,
+            "mr": {
+                "name": "ÇEKDAR",
+                "surname": "ÇIVAK",
+                "fullname": "ÇEKDAR ÇIVAK"
+            },
+            "mrs": {
+                "name": "EMİNE",
+                "surname": "ÇIVAK",
+                "fullname": "EMİNE ÇIVAK"
+            },
+            "homeImages": [
+                "https://pistatic.piyanos.com/uploads/wedding/cekdar/cocktail.jpg",
+                "https://pistatic.piyanos.com/uploads/wedding/cekdar/wedding.jpg",
+                "https://pistatic.piyanos.com/uploads/wedding/cekdar/afterwedding.jpg"
+            ],
+            "place": {
+                "title": "LEMAR DÜĞÜN SALONU",
+                "fullAddress": "Camiikebir Mah., Bahriye Cad., No:1, Beyoğlu, İstanbul, Türkiye",
+                "lat": 28.967103,
+                "lng": 41.031696,
+                "yandexLink": "https://yandex.com.tr/harita/-/CCUij4u9TA"
+            }
+        }
+    ]
+}
