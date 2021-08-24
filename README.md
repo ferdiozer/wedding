@@ -7,9 +7,10 @@ Press the link of the project on your wedding invitation as a qr code and share 
 
 
 ### Demo
-<center></center>
+<p align="center">
 <img src="src/assets/qrcode.png"/>
-<p>https://www.wedding.piyanos.com/cekdar</p>
+https://www.wedding.piyanos.com/cekdar
+</p>
 
 [View live](https://www.wedding.piyanos.com/cekdar)
 
