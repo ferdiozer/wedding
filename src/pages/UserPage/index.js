@@ -9,9 +9,11 @@ import _ from 'lodash'
 import Footer from '../../components/Footer'
 
 
-import Countdown from 'react-countdown';
+import MyHelmet from '../../components/MyHelmet';
 
 import Timer from '../../components/Countdown/Timer'
+
+import NotFound from '../NotFound'
 
 export default function index({ match }) {
     const { username } = match.params
@@ -20,11 +22,7 @@ export default function index({ match }) {
     const findedUser = _.find(DataList.users, { username })
 
     if (!findedUser) {
-        return (
-            <div>
-                <h1>Kullanıcı sistemde kayıtlı değil</h1>
-            </div>
-        )
+        return (<NotFound />)
     }
 
     const {
@@ -38,28 +36,10 @@ export default function index({ match }) {
         startDate
     } = findedUser
 
-    // useEffect(() => {
-    //     setTimeout(function () {
-    //         $('.flexslider .slide').resize();
-    //     }, 500);
-    //     return () => {
-    //
-    //     };
-    // }, []);
-
-    //height: '100vh', display: 'block',
-
-    const defaultLottieOptions = {
-        loop: true,
-        autoplay: true,
-        animationData: animationData,
-        rendererSettings: {
-            preserveAspectRatio: 'xMidYMid slice'
-        }
-    };
 
     return (
         <div id="wrapper2" className="clearfix">
+            <MyHelmet title={title} description={description} />
             <div id="most-toppest" />
             <section id="slider" className="slider-element slider-parallax min-vh-60 min-vh-md-100 page-section dark">
                 <div style={{ background: `url(${coverImage}) center center`, backgroundSize: 'cover' }} className="slider-inner">

@@ -8,7 +8,7 @@ function Home() {
             <header className="App-header">
 
                 <p>
-                    Bulunamadı
+                    Bulunamadı :(
                 </p>
 
             </header>

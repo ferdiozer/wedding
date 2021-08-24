@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Wedding App
+Digitalize wedding invitations !!!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Scenario
+Press the link of the project on your wedding invitation as a qr code and share it with your friends
 
-In the project directory, you can run:
 
-### `npm start`
+### Demo
+<center></center>
+<img src="src/assets/qrcode.png"/>
+<p>https://www.wedding.piyanos.com/cekdar</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[View live](https://www.wedding.piyanos.com/cekdar)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+Built with React JS
+[README React](https://github.com/ferdiozer/basic-github/blob/main/README.react.md)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##### Changed this data for you
+*src/assets/data.json*
+<b>username:</b>your url parameter<br>
+<b>example.com/username*</b>
+```
+{
+    "users": [
+        {
+            "_id": "6100e8fa3c75af6b6538027d",
+            "username": "cekdar",
+            "title": "EVLENİYORUZ!",
+            "description": "Bu mutlu günümüzde siz değerli dostlarımızıda aramızda görmekten mutluluk duyarız.",
+            "coverImage": "https://pistatic.piyanos.com/uploads/wedding/cover-default.jpg",
+            "startDate": 1630227365000,
+            "mr": {
+                "name": "ÇEKDAR",
+                "surname": "ÇIVAK",
+                "fullname": "ÇEKDAR ÇIVAK"
+            },
+            "mrs": {
+                "name": "EMİNE",
+                "surname": "ÇIVAK",
+                "fullname": "EMİNE ÇIVAK"
+            },
+            "homeImages": [
+                "https://pistatic.piyanos.com/uploads/wedding/cekdar/cocktail.jpg",
+                "https://pistatic.piyanos.com/uploads/wedding/cekdar/wedding.jpg",
+                "https://pistatic.piyanos.com/uploads/wedding/cekdar/afterwedding.jpg"
+            ],
+            "place": {
+                "title": "LEMAR DÜĞÜN SALONU",
+                "fullAddress": "Camiikebir Mah., Bahriye Cad., No:1, Beyoğlu, İstanbul, Türkiye",
+                "lat": 28.967103,
+                "lng": 41.031696,
+                "yandexLink": "https://yandex.com.tr/harita/-/CCUij4u9TA"
+            }
+        }
+    ]
+}
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Follow me
+My Company Website [Piyanos Software](https://piyanos.com)
