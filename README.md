@@ -9,6 +9,7 @@ Press the link of the project on your wedding invitation as a qr code and share 
 ### Demo
 <p align="center">
 <img src="src/assets/qrcode.png"/>
+<br>
 https://www.wedding.piyanos.com/cekdar
 </p>
 
@@ -22,9 +23,9 @@ Built with React JS
 
 
 ##### Changed this data for you
-*src/assets/data.json*
+*src/assets/data.json* <br>
 <b>username:</b>your url parameter<br>
-<b>example.com/username*</b>
+<b>example.com/username</b>
 ```
 {
     "users": [
