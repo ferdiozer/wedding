@@ -5,6 +5,7 @@ import DataList from "../../assets/data.json"
 import Lottie from 'react-lottie';
 import * as animationData from '../../assets/heart-animation-73585.json'
 
+import moment from 'moment'
 import _ from 'lodash'
 import Footer from '../../components/Footer'
 
@@ -15,9 +16,13 @@ import Timer from '../../components/Countdown/Timer'
 
 import NotFound from '../NotFound'
 
-export default function index({ match }) {
-    const { username } = match.params
+import 'moment/locale/tr'
 
+export default function index({ match }) {
+    //locale
+    //moment().locale('tr')
+
+    const { username } = match.params
 
     const findedUser = _.find(DataList.users, { username })
 
@@ -103,6 +108,13 @@ export default function index({ match }) {
 
                         </div>
                         <div id="section-locations" className="heading-block text-center topmargin-lg page-section">
+                            <h5 style={{ fontWeight: 'normal' }} title={moment(startDate).fromNow()}>
+                                Tarih:
+                                {
+                                    ` ${moment(startDate).format("DD.MM.YYYY HH:mm")} ${moment(startDate).format("dddd")}`
+                                }
+
+                            </h5>
                             <h2>{place.title}</h2>
                             <span>
                                 {place.fullAddress}
