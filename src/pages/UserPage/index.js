@@ -128,12 +128,12 @@ export default function index({ match }) {
 
                         </div>
                     </div>
-                    <div style={{ position: 'relative', overflow: 'hidden' }}>
+                    {/* <div style={{ position: 'relative', overflow: 'hidden' }}>
                         <a href="https://yandex.com.tr/harita/org/lemar_dugun_salonlari/238447529399/?utm_medium=mapframe&utm_source=maps"
                             style={{ color: '#eee', fontSize: '12px', position: 'absolute', top: '0px' }}>
                             Lemar Düğün Salonları</a>
                         <iframe src="https://yandex.com.tr/map-widget/v1/-/CCUij4u9OA" width={560} height={400} frameBorder={1} allowFullScreen={true} style={{ position: 'relative' }} />
-                    </div>
+                    </div> */}
                 </div>
             </section>
 

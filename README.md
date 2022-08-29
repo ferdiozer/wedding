@@ -8,12 +8,12 @@ Press the link of the project on your wedding invitation as a qr code and share 
 
 ### Demo
 <p align="center">
-<img src="src/assets/qrcode.png"/>
+<img width="200" height="200" src="src/assets/qrcode.png"/>
 <br>
-https://www.wedding.piyanos.com/cekdar
+https://wedding.piyanos.com/cekdar
 </p>
 
-[View live](https://www.wedding.piyanos.com/cekdar)
+[View live](https://wedding.piyanos.com/cekdar)
 
 
 Built with React JS
